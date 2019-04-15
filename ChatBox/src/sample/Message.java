@@ -3,7 +3,7 @@ package sample;
 import java.io.Serializable;
 
 public class Message implements Serializable {
-    protected static final long serialVersionUID = 1112122200L;
+    protected static final long serialVersionUID = 3324002L;
 
     public static final int WHOIS = 0, MESSAGE = 1, LOGOUT = 2;
     private int type;
