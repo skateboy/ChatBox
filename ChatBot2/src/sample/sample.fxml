@@ -36,7 +36,7 @@
          <center>
             <TextArea fx:id="txtDisplay" disable="false" editable="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
          </center></BorderPane>
-      <TextField fx:id="txtInput" promptText="Enter conversation here" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <TextField fx:id="txtInput" promptText="Enter conversation here" GridPane.columnIndex="3" disable="true" GridPane.rowIndex="5" />
       <Button fx:id="btnSend" mnemonicParsing="false" onAction="#sendMessage" text="Submit" GridPane.columnIndex="5" GridPane.rowIndex="5" />
       <VBox alignment="CENTER" prefHeight="380.0" prefWidth="196.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
          <children>

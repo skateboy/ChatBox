@@ -18,6 +18,7 @@ public class Controller {
     private Button btnUser;
 
 
+
     @FXML
     private void sendMessage(ActionEvent event){
         message = txtInput.getText();
@@ -31,5 +32,6 @@ public class Controller {
         user = txtUser.getText();
         txtUser.setVisible(false);
         btnUser.setVisible(false);
+        txtInput.setDisable(false);
     }
 }
