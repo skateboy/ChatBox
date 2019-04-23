@@ -15,12 +15,15 @@ public class Controller {
 
 
     @FXML
-    private Button btnUser;
+    private Button btnUser, btnSend;
+
+
 
 
 
     @FXML
     private void sendMessage(ActionEvent event){
+        
         message = txtInput.getText();
         txtDisplay.appendText(user + ": " + message + "\n\n");
 
@@ -33,5 +36,6 @@ public class Controller {
         txtUser.setVisible(false);
         btnUser.setVisible(false);
         txtInput.setDisable(false);
+        btnSend.setDisable(false);
     }
 }
