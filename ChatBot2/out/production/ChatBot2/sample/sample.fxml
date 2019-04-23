@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane alignment="center" hgap="10" prefHeight="491.0" prefWidth="801.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <BorderPane prefHeight="523.0" prefWidth="555.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <center>
+            <TextArea fx:id="txtDisplay" disable="false" editable="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center></BorderPane>
+      <TextField fx:id="txtInput" promptText="Enter conversation here" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Button fx:id="btnSend" mnemonicParsing="false" onAction="#sendMessage" text="Submit" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <VBox alignment="CENTER" prefHeight="380.0" prefWidth="196.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+         <children>
+            <TextField fx:id="txtUser" promptText="Enter Username here">
+               <VBox.margin>
+                  <Insets bottom="50.0" left="5.0" right="5.0" />
+               </VBox.margin>
+            </TextField>
+            <Button fx:id="btnUser" mnemonicParsing="false" onAction="#setUserName" text="Enter" />
+         </children>
+      </VBox>
+   </children>
+</GridPane>
