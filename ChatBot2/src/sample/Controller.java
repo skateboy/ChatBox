@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.fxml.FXML;
+import java.lang.String;
 import javafx.scene.control.*;
 import javafx.event.ActionEvent;
 
@@ -23,11 +24,15 @@ public class Controller {
 
     @FXML
     private void sendMessage(ActionEvent event){
-        
-        message = txtInput.getText();
-        txtDisplay.appendText(user + ": " + message + "\n\n");
 
-        txtInput.setText("");
+        if(txtInput.getText().isEmpty()){
+
+        } else {
+            message = txtInput.getText();
+            txtDisplay.appendText(user + ": " + message + "\n\n");
+
+            txtInput.setText("");
+        }
     }
 
     @FXML
