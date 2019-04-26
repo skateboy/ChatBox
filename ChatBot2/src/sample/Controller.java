@@ -1,12 +1,20 @@
 package sample;
 
 import javafx.fxml.FXML;
+
+import java.awt.event.ActionListener;
 import java.lang.String;
+import java.net.URL;
+
+import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.event.ActionEvent;
 
+import javax.annotation.Resources;
+
 public class Controller {
     private String user;
+    private String bot = "Huang";
     private String message;
     @FXML
     private TextField txtUser, txtInput;
@@ -20,7 +28,10 @@ public class Controller {
 
 
 
+    @FXML
+    protected void initialize() {
 
+    }
 
     @FXML
     private void sendMessage(ActionEvent event){
@@ -42,5 +53,6 @@ public class Controller {
         btnUser.setVisible(false);
         txtInput.setDisable(false);
         btnSend.setDisable(false);
+        txtDisplay.setText(bot + ": " + "How may I help you today, " + user +"?\n\n");
     }
 }
