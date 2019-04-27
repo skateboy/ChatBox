@@ -72,57 +72,6 @@ public class Controller {
         }catch(Exception e){
             e.printStackTrace();
         }
-
-            /*
-
-            try{
-                String resourcesPath = getResourcesPath();
-                System.out.println(resourcesPath);
-                MagicBooleans.trace_mode=TRACE_MODE;
-                Bot bot = new Bot("Billy Bob",resourcesPath);
-                Chat chatSession=new Chat(bot);
-                bot.brain.nodeStats();
-                txtInput.setText("");
-
-
-                while(true){
-
-                    if(txtInput.getText().isEmpty()){
-
-                    } else {
-                        message = txtInput.getText();
-                        txtDisplay.appendText(user + ": " + message + "\n\n");
-
-                        txtInput.setText("");
-                    }
-
-
-                    txtInput.setText(IOUtils.readInputTextLine());
-                    if((txtInput==null)||(txtInput.getLength()< 1))
-                        txtInput.setText(MagicStrings.null_input);
-                    if(txtInput.equals("q")){
-                        System.exit(0);
-                    }else if(txtInput.equals("wq")){
-                        bot.writeQuit();
-                        System.exit(0);
-                    }else{
-                        String request=textLine;
-                        if(MagicBooleans.trace_mode)
-                            txtDisplay.setText("STATE="+request+":THAT="+((History)chatSession.thatHistory.get(0)).get(0)+":TOPIC="+chatSession.predicates.get("topic"));
-                        String response=chatSession.multisentenceRespond(request);
-                        while(response.contains("&lt;"))
-                            response=response.replace("&lt;","<");
-                        while(response.contains("&gt;"))
-                            response=response.replace("&gt;",">");
-                        txtDisplay.setText("Billy BOB : "+response);
-                    }
-                }
-            }catch(Exception e){
-                e.printStackTrace();
-            }
-
-            */
-
     }
 
     @FXML
