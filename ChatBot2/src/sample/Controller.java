@@ -1,21 +1,27 @@
 package sample;
-
 import javafx.fxml.FXML;
-
 import java.awt.event.ActionListener;
 import java.lang.String;
 import java.net.URL;
-
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.event.ActionEvent;
-
 import javax.annotation.Resources;
+import java.io.File;
+import org.alicebot.ab.Bot;
+import org.alicebot.ab.Chat;
+import org.alicebot.ab.History;
+import org.alicebot.ab.MagicBooleans;
+import org.alicebot.ab.MagicStrings;
+import org.alicebot.ab.utils.IOUtils;
 
 public class Controller {
     private String user;
-    private String bot = "Huang";
+   // private String bot = "Huang";
     private String message;
+    public static final boolean TRACE_MODE = false;
+    static String botName = "Billy Bob Tha IV";
+
     @FXML
     private TextField txtUser, txtInput;
 
@@ -35,15 +41,57 @@ public class Controller {
 
     @FXML
     private void sendMessage(ActionEvent event){
+        
 
-        if(txtInput.getText().isEmpty()){
 
-        } else {
-            message = txtInput.getText();
-            txtDisplay.appendText(user + ": " + message + "\n\n");
+            try{
 
-            txtInput.setText("");
-        }
+                String resourcesPath = getResourcesPath();
+                System.out.println(resourcesPath);
+                MagicBooleans.trace_mode=TRACE_MODE;
+                Bot bot = new Bot("Billy Bob",resourcesPath);
+                Chat chatSession=new Chat(bot);
+                bot.brain.nodeStats();
+                String textLine="";
+
+                while(true){
+
+                    if(txtInput.getText().isEmpty()){
+
+                    } else {
+                        message = txtInput.getText();
+                        txtDisplay.appendText(user + ": " + message + "\n\n");
+
+                        txtInput.setText("");
+                    }
+
+
+                    textLine=IOUtils.readInputTextLine();
+                    if((textLine==null)||(textLine.length()< 1))
+                        textLine=MagicStrings.null_input;
+                    if(textLine.equals("q")){
+                        System.exit(0);
+                    }else if(textLine.equals("wq")){
+                        bot.writeQuit();
+                        System.exit(0);
+                    }else{
+                        String request=textLine;
+                        if(MagicBooleans.trace_mode)
+                            txtDisplay.setText("STATE="+request+":THAT="+((History)chatSession.thatHistory.get(0)).get(0)+":TOPIC="+chatSession.predicates.get("topic"));
+                        String response=chatSession.multisentenceRespond(request);
+                        while(response.contains("&lt;"))
+                            response=response.replace("&lt;","<");
+                        while(response.contains("&gt;"))
+                            response=response.replace("&gt;",">");
+                        txtDisplay.setText("Billy BOB : "+response);
+                    }
+                }
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+
+
+
     }
 
     @FXML
@@ -53,6 +101,16 @@ public class Controller {
         btnUser.setVisible(false);
         txtInput.setDisable(false);
         btnSend.setDisable(false);
-        txtDisplay.setText(bot + ": " + "How may I help you today, " + user +"?\n\n");
+       // txtDisplay.setText(bot + ": " + "How may I help you today, " + user +"?\n\n");
+    }
+
+
+    public static String getResourcesPath(){
+        File currDir=new File(".");
+        String path=currDir.getAbsolutePath();
+        path=path.substring(0,path.length()-2);
+        System.out.println(path);
+        String resourcesPath=path+File.separator+"src"+File.separator+"main"+File.separator+"resources";
+        return resourcesPath;
     }
 }
