@@ -1,4 +1,5 @@
 package sample;
+
 import javafx.fxml.FXML;
 import java.awt.event.ActionListener;
 import java.lang.String;
@@ -17,7 +18,7 @@ import org.alicebot.ab.utils.IOUtils;
 
 public class Controller {
     private String user;
-   // private String bot = "Huang";
+    private String botHuang = "Huang";
     private String message;
     public static final boolean TRACE_MODE = false;
     static String botName = "Billy Bob Tha IV";
@@ -41,18 +42,48 @@ public class Controller {
 
     @FXML
     private void sendMessage(ActionEvent event){
-        
+        try{
 
+            String resourcesPath = getResourcesPath();
+            System.out.println(resourcesPath);
+            MagicBooleans.trace_mode=TRACE_MODE;
+            Bot bot = new Bot("super",resourcesPath);
+            Chat chatSession=new Chat(bot);
+            bot.brain.nodeStats();
+            String textLine="";
+            textLine=txtInput.getText();
+            txtInput.setText("");
+            txtDisplay.appendText(user + ": " + textLine + "\n\n");
+            if((textLine==null)||(textLine.length()< 1))
+                textLine=MagicStrings.null_input;
+            if(textLine.equals("quit")){
+                System.exit(0);
+            }else {
+                String request = textLine;
+                if (MagicBooleans.trace_mode)
+                    txtDisplay.appendText("STATE=" + request + ":THAT=" + ((History) chatSession.thatHistory.get(0)).get(0) + ":TOPIC=" + chatSession.predicates.get("topic") + "\n\n");
+                String response = chatSession.multisentenceRespond(request);
+                while (response.contains("&lt;"))
+                    response = response.replace("&lt;", "<");
+                while (response.contains("&gt;"))
+                    response = response.replace("&gt;", ">");
+                txtDisplay.appendText(botHuang + ": " + response + "\n\n");
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+            /*
 
             try{
-
                 String resourcesPath = getResourcesPath();
                 System.out.println(resourcesPath);
                 MagicBooleans.trace_mode=TRACE_MODE;
                 Bot bot = new Bot("Billy Bob",resourcesPath);
                 Chat chatSession=new Chat(bot);
                 bot.brain.nodeStats();
-                String textLine="";
+                txtInput.setText("");
+
 
                 while(true){
 
@@ -66,12 +97,12 @@ public class Controller {
                     }
 
 
-                    textLine=IOUtils.readInputTextLine();
-                    if((textLine==null)||(textLine.length()< 1))
-                        textLine=MagicStrings.null_input;
-                    if(textLine.equals("q")){
+                    txtInput.setText(IOUtils.readInputTextLine());
+                    if((txtInput==null)||(txtInput.getLength()< 1))
+                        txtInput.setText(MagicStrings.null_input);
+                    if(txtInput.equals("q")){
                         System.exit(0);
-                    }else if(textLine.equals("wq")){
+                    }else if(txtInput.equals("wq")){
                         bot.writeQuit();
                         System.exit(0);
                     }else{
@@ -90,7 +121,7 @@ public class Controller {
                 e.printStackTrace();
             }
 
-
+            */
 
     }
 
@@ -101,7 +132,7 @@ public class Controller {
         btnUser.setVisible(false);
         txtInput.setDisable(false);
         btnSend.setDisable(false);
-       // txtDisplay.setText(bot + ": " + "How may I help you today, " + user +"?\n\n");
+        txtDisplay.setText(botHuang + ": " + "How may I help you today, " + user +"?\n\n");
     }
 
 
