@@ -2,177 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ef59638-d373-4a6d-8287-9c7f24de4520" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Ab.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/META-INF/ChatBot2.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/bot_profile.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/client_profile.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/contactaction.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/date.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/dialog.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/familiar.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/help.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/inappropriate.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/inquiry.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/insults.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/ontology.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/oob.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/personality.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/picture.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/profanity.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/reductions1.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/reductions_update.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/save.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/sraix.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/testjp.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/that.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/train.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/udc.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/update.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/update.save" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aiml/utilities.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/bot_profile.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/client_profile.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/contactaction.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/date.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/dialog.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/familiar.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/help.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/inappropriate.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/inquiry.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/insults.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/learnf.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/ontology.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/oob.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/personality.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/picture.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/profanity.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/reductions1.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/reductions_update.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/sraix.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/testjp.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/that.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/train.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/udc.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/update.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/aimlif/utilities.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/copyright.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/denormal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/gender.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/normal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/person.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/person2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/predicates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/config/properties.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/maps/familiarpredicate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/maps/gendername.external" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/maps/gendername.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/maps/number2ordinal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/maps/ordinal2number.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/maps/profile2predicate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/maps/verb2sp2verb1sp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/bird.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/color.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/digit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/familiarname.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/fastfood.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/language.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/mammal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/mammalfeature.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/name.external" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/name.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/ordinal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/place.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/preposition.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/profile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/verb2sp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatBot2/main/resources/bots/super/sets/verb2st.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/bot_profile.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/client_profile.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/contactaction.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/date.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/dialog.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/familiar.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/help.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/inappropriate.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/inquiry.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/insults.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/ontology.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/oob.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/personality.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/picture.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/profanity.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/reductions1.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/reductions_update.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/save.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/sraix.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/testjp.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/that.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/train.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/udc.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/update.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/update.save" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/utilities.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/bot_profile.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/client_profile.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/contactaction.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/date.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/dialog.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/familiar.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/help.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/inappropriate.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/inquiry.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/insults.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/learnf.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/ontology.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/oob.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/personality.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/picture.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/profanity.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/reductions1.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/reductions_update.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/sraix.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/testjp.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/that.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/train.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/udc.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/update.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/utilities.aiml.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/copyright.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/denormal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/gender.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/normal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/person.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/person2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/predicates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/config/properties.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/maps/familiarpredicate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/maps/gendername.external" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/maps/gendername.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/maps/number2ordinal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/maps/ordinal2number.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/maps/profile2predicate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/maps/verb2sp2verb1sp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/bird.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/color.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/digit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/familiarname.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/fastfood.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/language.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/mammal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/mammalfeature.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/name.external" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/name.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/ordinal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/place.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/preposition.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/profile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/verb2sp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bots/super/sets/verb2st.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChatBot2/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatBot2/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -182,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -191,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="84">
               <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -203,8 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="306">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,9 +65,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,6 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,8 +110,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,33 +181,33 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1261745" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -410,14 +244,19 @@
     <option name="LAST_COMMIT_MESSAGE" value=" another commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/resources/bots/super/aiml/oob.aiml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Chatbot.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/sample/resources/bots/super/aiml/oob.aiml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Chatbot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="84">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -425,10 +264,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
