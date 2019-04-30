@@ -11,7 +11,6 @@
 0,I AM GOING TO KILL *,*,*,You should contact the authorities.  <oob><dial>911</dial></oob>,oob.aiml
 0,BATTERY LEVEL,*,*,Checking.  Battery level is <oob><battery/></oob> percent.,oob.aiml
 0,GOOGLE,*,*,I'm opening Google search.  <oob><search/></oob>,oob.aiml
-0,GOOGLE *,*,*,<oob><search><star/></search></oob> I'm opening your browser.,oob.aiml
 0,SEARCH *,*,*,I'll try a web search.  <oob><search><star/></search></oob>,oob.aiml
 0,FIND ME A *,*,*,Let's try a web search.  <oob><search><star/></search></oob>,oob.aiml
 0,FIND A *,*,*,Let's try looking on the map.  <oob><map><star/></map></oob>,oob.aiml

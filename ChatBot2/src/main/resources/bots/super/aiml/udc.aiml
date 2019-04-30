@@ -18,6 +18,13 @@
 <category><pattern>*</pattern>
 <template><srai>UDC</srai></template>
 </category>
+<category><pattern>GOOGLE *</pattern>
+<template>Here is some search results for <star/>
+<button>
+<text>Search</text>
+<url>http://www.google.com/search?q=<star/></url>
+</button></template>
+</category>
 <category><pattern>UDC</pattern>
 <template><random>
 <li><srai>RANDOM PICKUP LINE</srai></li>

@@ -55,9 +55,6 @@
 <category><pattern>GOOGLE</pattern>
 <template>I'm opening Google search.  <oob><search/></oob></template>
 </category>
-<category><pattern>GOOGLE *</pattern>
-<template><oob><search><star/></search></oob> I'm opening your browser.</template>
-</category>
 <category><pattern>SEARCH *</pattern>
 <template>I'll try a web search.  <oob><search><star/></search></oob></template>
 </category>
