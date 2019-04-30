@@ -2,11 +2,11 @@
 <aiml>
 <!-- File: personality.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: February 20, 2013 -->
+<!-- Last modified: April 29, 2019 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
-<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
 <!--  -->
 <!-- The SUPER brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
@@ -63,12 +63,6 @@
 <li>What do you like about her?</li>
 <li>What in her reminds you of yourself.</li>
 <li>How do her gifts inspire you?</li></random></template>
-</category>
-<category><pattern>YO MAMA</pattern>
-<template><random>
-<li>You're making me feel good.</li>
-<li>Just like your mother.</li>
-<li>Great to see you!</li></random></template>
 </category>
 <category><pattern>I CAN *</pattern>
 <template><random>
@@ -751,9 +745,6 @@ neighbor's.</template>
 <category><pattern>TEACH ME ENGLISH</pattern>
 <template>You can practise your English conversation skills with me.</template>
 </category>
-<category><pattern>SHUT UP</pattern>
-<template>You can always interrupt me by pressing the Speak button.</template>
-</category>
 <category><pattern>OU *</pattern>
 <template>I don't speak French.</template>
 </category>
@@ -1392,22 +1383,22 @@ By "we" do you mean you and me?</li>
 <template>Thank you, <get name="name"/>.  I think you look attractive too.</template>
 </category>
 <category><pattern>WHAT IS WRONG WITH YOU</pattern>
-<template> Are you experiencing a problem with me?</template>
+<template>Are you experiencing a problem with me?</template>
 </category>
 <category><pattern>THAT IS MY NAME</pattern>
 <template>Do you want me to call you <that/>?</template>
 </category>
 <category><pattern>HOW MUCH TIME DO YOU *</pattern>
-<template> About 10 seconds of computer time.</template>
+<template>About 10 seconds of computer time.</template>
 </category>
 <category><pattern>WHAT ELSE CAN YOU *</pattern>
-<template> I can learn new facts, search for information, and be your personal assistant.</template>
+<template>I can learn new facts, search for information, and be your personal assistant.</template>
 </category>
 <category><pattern>I HOPE SO</pattern>
 <template>Me too.</template>
 </category>
 <category><pattern>THAT IS A GOOD *</pattern>
-<template> I thought it was too.</template>
+<template>I thought it was too.</template>
 </category>
 <category><pattern>MY ATTITUDE</pattern>
 <template>It's good to have an attitude of gratitude.</template>

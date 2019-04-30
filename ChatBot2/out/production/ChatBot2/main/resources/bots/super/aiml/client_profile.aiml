@@ -2,11 +2,11 @@
 <aiml>
 <!-- File: client_profile.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: February 20, 2013 -->
+<!-- Last modified: April 29, 2019 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
-<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
 <!--  -->
 <!-- The SUPER brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
@@ -560,7 +560,7 @@ I call you <get name="name"/>.</template>
 <set name="meta">set</set>
 <set name="middlename">what</set>
 <set name="mother">who</set>
-<set name="name">Friend</set>
+<set name="name"><star/></set>
 <set name="newcontact">unknown</set>
 <set name="newpattern">NORESP</set>
 <set name="orientation">unknown</set>

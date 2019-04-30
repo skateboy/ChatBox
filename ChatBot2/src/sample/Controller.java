@@ -18,10 +18,17 @@ import org.alicebot.ab.utils.IOUtils;
 
 public class Controller {
     private String user;
-    private String botHuang = "Huang";
+    private String botName = "Huang";
     private String message;
     public static final boolean TRACE_MODE = false;
-    static String botName = "Billy Bob Tha IV";
+
+
+    String resourcesPath = getResourcesPath();
+    Bot bot = new Bot("super",resourcesPath);
+    Chat chatSession=new Chat(bot);
+
+
+
 
     @FXML
     private TextField txtUser, txtInput;
@@ -38,20 +45,46 @@ public class Controller {
     @FXML
     protected void initialize() {
 
+
+        System.out.println(resourcesPath);
+        MagicBooleans.trace_mode=TRACE_MODE;
+
+
+        bot.writeAIMLFiles();
+
+        bot.brain.nodeStats();
+
     }
 
     @FXML
     private void sendMessage(ActionEvent event){
         try{
 
-            String resourcesPath = getResourcesPath();
-            System.out.println(resourcesPath);
-            MagicBooleans.trace_mode=TRACE_MODE;
-            Bot bot = new Bot("super",resourcesPath);
-            Chat chatSession=new Chat(bot);
-            bot.brain.nodeStats();
+
+
+
+
             String textLine="";
             textLine=txtInput.getText();
+            String buffer[] = textLine.split(" ");
+
+            for(String str : buffer){
+                System.out.println(str);
+            }
+            if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("my".toUpperCase()))){
+                if(!textLine.toUpperCase().contains("what".toUpperCase())) {
+                    user = buffer[buffer.length - 1];
+                    System.out.println(user);
+                }
+            }
+            if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("your".toUpperCase()))){
+                if(!textLine.toUpperCase().contains("what".toUpperCase())) {
+                    botName = buffer[buffer.length - 1];
+                    System.out.println(botName);
+                }
+            }
+
+
             txtInput.setText("");
             txtDisplay.appendText(user + ": " + textLine + "\n\n");
             if((textLine==null)||(textLine.length()< 1))
@@ -67,7 +100,7 @@ public class Controller {
                     response = response.replace("&lt;", "<");
                 while (response.contains("&gt;"))
                     response = response.replace("&gt;", ">");
-                txtDisplay.appendText(botHuang + ": " + response + "\n\n");
+                txtDisplay.appendText(botName + ": " + response + "\n\n");
             }
         }catch(Exception e){
             e.printStackTrace();
@@ -81,7 +114,7 @@ public class Controller {
         btnUser.setVisible(false);
         txtInput.setDisable(false);
         btnSend.setDisable(false);
-        txtDisplay.setText(botHuang + ": " + "How may I help you today, " + user +"?\n\n");
+        txtDisplay.setText(botName + ": " + "How may I help you today, " + user +"?\n\n");
     }
 
 
