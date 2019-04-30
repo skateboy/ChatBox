@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a228cd3-cc4b-4bed-91ad-5eef25dbeca0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/20q.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/20q.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/battledome.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/battledome.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/binary.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/binary.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/blackjack.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/blackjack.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/bornin.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/bornin.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/bot_profile.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/botcompare.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/botcompare.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/calendar.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/calendar.aiml" afterDir="false" />
@@ -12,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/client_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/client_profile.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/contactaction.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/contactaction.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/copyme.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/copyme.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/currency.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/currency.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/date.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/date.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/daystoxmas.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/daystoxmas.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/dialog.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/dialog.aiml" afterDir="false" />
@@ -20,23 +24,36 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/gender.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/gender.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/hangman.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/hangman.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/happy.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/happy.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/help.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/help.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/highroller.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/highroller.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/horoscope.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/horoscope.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/howmany.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/howmany.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/inappropriate.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/inappropriate.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/inquiry.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/inquiry.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/insults.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/insults.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/jokes.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/jokes.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/knockknock.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/knockknock.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/learn.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/learn.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/learnf.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/learnf.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/luckyslots.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/luckyslots.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/maths.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/maths.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/numberdrop.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/numberdrop.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/numberones.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/numberones.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/onthisday.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/onthisday.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/ontology.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/ontology.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/oob.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/oob.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/personality.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/personality.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/picture.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/picture.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/poker.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/poker.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/profanity.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/profanity.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/quizfacts.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/quizfacts.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/reductions1.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/reductions1.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/reductions_update.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/reductions_update.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/seasons.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/seasons.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/shutup.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/shutup.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/sraix.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/sraix.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/testjp.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/testjp.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/that.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/that.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/tictactoe.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/tictactoe.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/train.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/train.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/udc.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/udc.aiml" afterDir="false" />
@@ -47,9 +64,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/wordplay.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/wordplay.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/yomama.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/yomama.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/zbert.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aiml/zbert.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/oob.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/oob.aiml.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/udc.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/udc.aiml.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/update.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bots/super/aimlif/update.aiml.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,16 +75,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            <state relative-caret-position="397">
+              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,66 +91,61 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/ontology.aiml.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/ontology.aiml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/onthisday.aiml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/happy.aiml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/contactaction.aiml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/udc.aiml">
+        <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="318">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/inquiry.aiml.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/config/copyright.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/config/normal.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/drphil.aiml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612" />
+            <state relative-caret-position="646">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/drphil.aiml.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/familiarpredicate.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/number2ordinal.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/ordinal2number.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/profile2predicate.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/hangman.aiml.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -156,8 +166,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/bots/super/aiml/client_profile.aiml" />
         <option value="$PROJECT_DIR$/src/main/resources/bots/super/aiml/bot_profile.aiml" />
         <option value="$PROJECT_DIR$/src/main/resources/bots/super/maps/gendername.txt" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bots/super/aiml/udc.aiml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
       </list>
     </option>
   </component>
@@ -171,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +243,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -277,17 +288,13 @@
     <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2532124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
@@ -295,14 +302,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -341,12 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/profile2predicate.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/familiarpredicate.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/gendername.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -357,27 +362,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/20q.aiml.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/inquiry.aiml.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/config/copyright.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/config/normal.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/ontology.aiml.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -387,7 +371,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/ontology.aiml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="714">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
@@ -400,15 +384,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/contactaction.aiml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
+        <state relative-caret-position="374">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/inquiry.aiml.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/config/copyright.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/config/normal.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/udc.aiml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="544">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aiml/drphil.aiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/drphil.aiml.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/familiarpredicate.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/number2ordinal.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/ordinal2number.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/maps/profile2predicate.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bots/super/aimlif/hangman.aiml.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>

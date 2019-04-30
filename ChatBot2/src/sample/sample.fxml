@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<GridPane alignment="center" hgap="10" prefHeight="491.0" prefWidth="801.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller" stylesheets="/sample/css/main.css">
+<GridPane alignment="center" hgap="10" prefHeight="491.0" prefWidth="801.0" stylesheets="/sample/css/main.css" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />
@@ -36,8 +36,8 @@
          <center>
             <TextArea fx:id="txtDisplay" disable="false" editable="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
          </center></BorderPane>
-      <TextField fx:id="txtInput" promptText="Enter conversation here" GridPane.columnIndex="3" disable="true" GridPane.rowIndex="5" />
-      <Button fx:id="btnSend" mnemonicParsing="false" onAction="#sendMessage" disable="true" text="Submit" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <TextField fx:id="txtInput"  disable="true" promptText="Enter conversation here" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Button fx:id="btnSend" disable="true" mnemonicParsing="false" onAction="#sendMessage" text="Submit" GridPane.columnIndex="5" GridPane.rowIndex="5" />
       <VBox alignment="CENTER" prefHeight="380.0" prefWidth="196.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
          <children>
             <TextField fx:id="txtUser" promptText="Enter Username here">

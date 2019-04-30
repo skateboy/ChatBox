@@ -2,7 +2,7 @@
 <aiml>
 <!-- File: udc.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: April 29, 2019 -->
+<!-- Last modified: April 30, 2019 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
@@ -18,15 +18,12 @@
 <category><pattern>*</pattern>
 <template><srai>UDC</srai></template>
 </category>
-<category>
-<pattern>GOOGLE *</pattern>
-<template>
-Here is some search results for <star />
+<category><pattern>GOOGLE *</pattern>
+<template>Here is some search results for <star/>
 <button>
 <text>Search</text>
-<url>http://www.google.com/search?q=<star /></url>
-</button>
-</template>
+<url>http://www.google.com/search?q=<star/></url>
+</button></template>
 </category>
 <category><pattern>UDC</pattern>
 <template><random>

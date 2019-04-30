@@ -15,6 +15,7 @@ import org.alicebot.ab.History;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
 import org.alicebot.ab.utils.IOUtils;
+import javafx.event.EventHandler;
 
 public class Controller {
     private String user;
@@ -54,7 +55,72 @@ public class Controller {
 
         bot.brain.nodeStats();
 
+        txtUser.setOnAction(new EventHandler<ActionEvent>(){
+            @Override
+            public void handle(ActionEvent event){
+                user = txtUser.getText();
+                txtUser.setVisible(false);
+                btnUser.setVisible(false);
+                txtInput.setDisable(false);
+                btnSend.setDisable(false);
+                txtDisplay.setText(botName + ": " + "How may I help you today, " + user +"?\n\n");
+            }
+
+        });
+
+        txtInput.setOnAction(new EventHandler<ActionEvent>(){
+            @Override
+            public void handle(ActionEvent event){
+                try{
+
+                    String textLine="";
+                    textLine=txtInput.getText();
+                    String buffer[] = textLine.split(" ");
+
+                    for(String str : buffer){
+                        System.out.println(str);
+                    }
+                    if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("my".toUpperCase()))){
+                        if(!textLine.toUpperCase().contains("what".toUpperCase())) {
+                            user = buffer[buffer.length - 1];
+                            System.out.println(user);
+                        }
+                    }
+                    if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("your".toUpperCase()))){
+                        if(!textLine.toUpperCase().contains("what".toUpperCase())) {
+                            botName = buffer[buffer.length - 1];
+                            System.out.println(botName);
+                        }
+                    }
+
+
+                    txtInput.setText("");
+                    txtDisplay.appendText(user + ": " + textLine + "\n\n");
+                    if((textLine==null)||(textLine.length()< 1))
+                        textLine=MagicStrings.null_input;
+                    if(textLine.equals("quit")){
+                        System.exit(0);
+                    }else {
+                        String request = textLine;
+                        if (MagicBooleans.trace_mode)
+                            txtDisplay.appendText("STATE=" + request + ":THAT=" + ((History) chatSession.thatHistory.get(0)).get(0) + ":TOPIC=" + chatSession.predicates.get("topic") + "\n\n");
+                        String response = chatSession.multisentenceRespond(request);
+                        while (response.contains("&lt;"))
+                            response = response.replace("&lt;", "<");
+                        while (response.contains("&gt;"))
+                            response = response.replace("&gt;", ">");
+                        txtDisplay.appendText(botName + ": " + response + "\n\n");
+                    }
+                }catch(Exception e){
+                    e.printStackTrace();
+                }
+            }
+
+        });
+
     }
+
+
 
     @FXML
     private void sendMessage(ActionEvent event){
