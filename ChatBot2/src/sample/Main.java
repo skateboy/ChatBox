@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    // Create scene and window
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
@@ -16,7 +17,7 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
+    // load
     public static void main(String[] args) {
         launch(args);
     }
