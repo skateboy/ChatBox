@@ -18,15 +18,16 @@ import org.alicebot.ab.utils.IOUtils;
 import javafx.event.EventHandler;
 
 public class Controller {
+    // Set up names and message
     private String user;
-    private String botName = "Huang";
+    private String botName = "TheBot";
     private String message;
     public static final boolean TRACE_MODE = false;
 
 
     String resourcesPath = getResourcesPath();
-    Bot bot = new Bot("super",resourcesPath);
-    Chat chatSession=new Chat(bot);
+    Bot bot = new Bot("super",resourcesPath); // Bot is intialized
+    Chat chatSession=new Chat(bot); // Create chat
 
 
 
@@ -51,7 +52,7 @@ public class Controller {
         MagicBooleans.trace_mode=TRACE_MODE;
 
 
-        bot.writeAIMLFiles();
+        bot.writeAIMLFiles(); // XML library for patterns and queue
 
         bot.brain.nodeStats();
 
@@ -63,7 +64,7 @@ public class Controller {
                 btnUser.setVisible(false);
                 txtInput.setDisable(false);
                 btnSend.setDisable(false);
-                txtDisplay.setText(botName + ": " + "How may I help you today, " + user +"?\n\n");
+                txtDisplay.setText(botName + ": " + "How may I help you today, " + user +"?\n\n"); // Initial text
             }
 
         });
@@ -75,17 +76,21 @@ public class Controller {
 
                     String textLine="";
                     textLine=txtInput.getText();
-                    String buffer[] = textLine.split(" ");
+                    String buffer[] = textLine.split(" "); // Create buffer for string lines entered
 
                     for(String str : buffer){
                         System.out.println(str);
                     }
+                    
+                    // Name set for user
                     if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("my".toUpperCase()))){
                         if(!textLine.toUpperCase().contains("what".toUpperCase())) {
                             user = buffer[buffer.length - 1];
                             System.out.println(user);
                         }
                     }
+                    
+                    // name set for bot
                     if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("your".toUpperCase()))){
                         if(!textLine.toUpperCase().contains("what".toUpperCase())) {
                             botName = buffer[buffer.length - 1];
@@ -93,7 +98,7 @@ public class Controller {
                         }
                     }
 
-
+                    // Parse response
                     txtInput.setText("");
                     txtDisplay.appendText(user + ": " + textLine + "\n\n");
                     if((textLine==null)||(textLine.length()< 1))
@@ -134,15 +139,19 @@ public class Controller {
             textLine=txtInput.getText();
             String buffer[] = textLine.split(" ");
 
-            for(String str : buffer){
+            for(String str : buffer){ // buffer for string line
                 System.out.println(str);
             }
+            
+            // user set name
             if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("my".toUpperCase()))){
                 if(!textLine.toUpperCase().contains("what".toUpperCase())) {
                     user = buffer[buffer.length - 1];
                     System.out.println(user);
                 }
             }
+            
+            // bot set name
             if((textLine.toUpperCase().contains("name".toUpperCase()) && textLine.toUpperCase().contains("your".toUpperCase()))){
                 if(!textLine.toUpperCase().contains("what".toUpperCase())) {
                     botName = buffer[buffer.length - 1];
@@ -153,11 +162,11 @@ public class Controller {
 
             txtInput.setText("");
             txtDisplay.appendText(user + ": " + textLine + "\n\n");
-            if((textLine==null)||(textLine.length()< 1))
+            if((textLine==null)||(textLine.length()< 1)) // empty input response
                 textLine=MagicStrings.null_input;
-            if(textLine.equals("quit")){
+            if(textLine.equals("quit")){ // exit system
                 System.exit(0);
-            }else {
+            }else { // record
                 String request = textLine;
                 if (MagicBooleans.trace_mode)
                     txtDisplay.appendText("STATE=" + request + ":THAT=" + ((History) chatSession.thatHistory.get(0)).get(0) + ":TOPIC=" + chatSession.predicates.get("topic") + "\n\n");
@@ -174,7 +183,7 @@ public class Controller {
     }
 
     @FXML
-    private void setUserName(ActionEvent event) {
+    private void setUserName(ActionEvent event) { // process after creating username
         user = txtUser.getText();
         txtUser.setVisible(false);
         btnUser.setVisible(false);
@@ -184,7 +193,7 @@ public class Controller {
     }
 
 
-    public static String getResourcesPath(){
+    public static String getResourcesPath(){ // file path
         File currDir=new File(".");
         String path=currDir.getAbsolutePath();
         path=path.substring(0,path.length()-2);
